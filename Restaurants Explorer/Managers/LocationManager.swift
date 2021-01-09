@@ -38,9 +38,7 @@ final class LocationManager: NSObject, CLLocationManagerDelegate {
     
     func getLocation(result: @escaping(CLLocationDegrees?, CLLocationDegrees?) -> Void) {
         result(self.latitude, self.longitude)
-        
     }
-    
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
