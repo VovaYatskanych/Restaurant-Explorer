@@ -160,7 +160,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHC-Qg-PR7">
-                                <rect key="frame" x="40" y="244" width="334" height="378"/>
+                                <rect key="frame" x="40" y="244" width="334" height="318"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSm-s4-EXq">
                                         <rect key="frame" x="10" y="20" width="314" height="30"/>
@@ -198,6 +198,7 @@
                                     <constraint firstItem="D5w-CO-lX7" firstAttribute="top" secondItem="usN-Kt-ocM" secondAttribute="bottom" constant="44" id="DYF-fb-JCa"/>
                                     <constraint firstAttribute="trailing" secondItem="b6o-bM-G2W" secondAttribute="trailing" constant="10" id="Ebn-Rl-3EA"/>
                                     <constraint firstItem="vSm-s4-EXq" firstAttribute="leading" secondItem="PHC-Qg-PR7" secondAttribute="leading" constant="10" id="Gvs-Rr-Y2G"/>
+                                    <constraint firstAttribute="bottom" secondItem="jf7-ul-M4E" secondAttribute="bottom" constant="10" id="Vla-6O-tRK"/>
                                     <constraint firstAttribute="trailing" secondItem="vSm-s4-EXq" secondAttribute="trailing" constant="10" id="Xc6-Cn-1jS"/>
                                     <constraint firstItem="jf7-ul-M4E" firstAttribute="top" secondItem="b6o-bM-G2W" secondAttribute="bottom" constant="44" id="Y9e-dz-Fii"/>
                                     <constraint firstItem="D5w-CO-lX7" firstAttribute="leading" secondItem="PHC-Qg-PR7" secondAttribute="leading" constant="10" id="Ycu-9m-NgH"/>
@@ -216,7 +217,7 @@
                         <viewLayoutGuide key="safeArea" id="fXc-OK-4W3"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="fXc-OK-4W3" firstAttribute="bottom" secondItem="PHC-Qg-PR7" secondAttribute="bottom" constant="240" id="Uk3-dI-GOG"/>
+                            <constraint firstItem="fXc-OK-4W3" firstAttribute="bottom" secondItem="PHC-Qg-PR7" secondAttribute="bottom" priority="250" constant="240" id="Uk3-dI-GOG"/>
                             <constraint firstItem="PHC-Qg-PR7" firstAttribute="leading" secondItem="fXc-OK-4W3" secondAttribute="leading" constant="40" id="WZp-xs-Jtx"/>
                             <constraint firstItem="PHC-Qg-PR7" firstAttribute="top" secondItem="fXc-OK-4W3" secondAttribute="top" constant="200" id="jj6-PX-UMj"/>
                             <constraint firstItem="fXc-OK-4W3" firstAttribute="trailing" secondItem="PHC-Qg-PR7" secondAttribute="trailing" constant="40" id="kmI-fs-wlK"/>
